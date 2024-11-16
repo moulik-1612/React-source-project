@@ -6,7 +6,7 @@ import './style files/about.css'
 import './style files/help.css'
 import App from './App'
 import './style files/contact.css'
-import './style files/LoginPage.css'
+import './style files/loginpage.css'
 import './style files/index.css'
 
 
