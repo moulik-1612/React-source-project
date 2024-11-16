@@ -1,6 +1,6 @@
 import Footer from "./Footer";
-import HomePage from "./homepage";
-import Navbar from "./navbar";
+import HomePage from "./Homepage";
+import Navbar from "./Navbar";
 
 function LandingPage() {
     return (<>
