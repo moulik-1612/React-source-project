@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import Footer from "../Landing Page/Footer";
-import Navbar from "../Landing Page/navbar";
+import Navbar from "../Landing Page/Navbar";
 import { data } from "../../semester api/sem6";
 
 function Sem6chaptervideos() {

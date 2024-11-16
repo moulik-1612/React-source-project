@@ -1,5 +1,5 @@
 import Footer from "../Landing Page/Footer";
-import Navbar from "../Landing Page/navbar";
+import Navbar from "../Landing Page/Navbar";
 
 function Help() {
     return (<>
