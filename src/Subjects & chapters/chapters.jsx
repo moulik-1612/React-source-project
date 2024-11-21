@@ -1,6 +1,4 @@
 import {  useNavigate, useParams } from "react-router-dom";
-import Footer from '../Landing Page/Footer'
-import Navbar from "../Landing Page/Navbar";
 
 function Chapters() {
 
@@ -16,7 +14,6 @@ function Chapters() {
     }
 
     return (<>
-        <Navbar />
         <main>
         <section className="chapter-hero">
             <h1 id="sub_name">select your chapter</h1>
@@ -33,7 +30,6 @@ function Chapters() {
             ))}
         </section>
     </main>
-    <Footer />
     </>);
 }
 

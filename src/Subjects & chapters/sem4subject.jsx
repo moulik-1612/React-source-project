@@ -1,6 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import Footer from "../Landing Page/Footer";
-import Navbar from "../Landing Page/Navbar";
 
 function SemFourSubject({one, two, three, four}) {
 
@@ -22,7 +20,6 @@ function SemFourSubject({one, two, three, four}) {
     }
     
     return (<>
-    <Navbar />
     <main>
         <section className="category-hero">
             <h1>Select a Subject</h1>
@@ -52,7 +49,6 @@ function SemFourSubject({one, two, three, four}) {
             </div>
         </section>
     </main>
-    <Footer />
     </>
     );
 }

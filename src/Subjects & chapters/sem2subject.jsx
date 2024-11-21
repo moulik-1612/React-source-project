@@ -1,6 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import Footer from "../Landing Page/Footer";
-import Navbar from "../Landing Page/Navbar";
 
 function SemTwoSubject({one}) {
 
@@ -10,7 +8,6 @@ function SemTwoSubject({one}) {
     }
     
     return (<>
-    <Navbar />
     <main>
         <section className="category-hero">
             <h1>Select a Subject</h1>
@@ -35,7 +32,6 @@ function SemTwoSubject({one}) {
             </div>
         </section>
     </main>
-    <Footer />
     </>
     );
 }

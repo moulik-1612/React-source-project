@@ -1,5 +1,4 @@
-import Footer from "../Landing Page/Footer";
-import Navbar from "../Landing Page/Navbar";
+
 
 function SemThreeSubject() {
 
@@ -8,7 +7,6 @@ function SemThreeSubject() {
     }
 
     return (<>
-    <Navbar />
     <main>
         <section className="category-hero">
             <h1>Select a Subject</h1>
@@ -33,7 +31,6 @@ function SemThreeSubject() {
             </div>
         </section>
     </main>
-    <Footer />
     </>
     );
 }

@@ -1,10 +1,8 @@
 import { NavLink } from "react-router-dom";
-import Footer from "../Landing Page/Footer";
-import Navbar from "../Landing Page/Navbar";
+
 
 function Help() {
     return (<>
-    <Navbar />
         <section className="help">
         <div className="help-container">
             <h1>Help</h1>
@@ -27,7 +25,6 @@ function Help() {
             <p>Visit our <NavLink to='/contact'>Contact Us</NavLink> page and let us know!</p>
         </div>
     </section>
-    <Footer />
     </>
     );
 }

@@ -1,5 +1,3 @@
-import Navbar from "./Landing Page/Navbar";
-import Footer from './Landing Page/Footer'
 import { useNavigate } from "react-router-dom";
 
 function SemesterCateogry() {
@@ -7,7 +5,6 @@ function SemesterCateogry() {
     const navigate = useNavigate()
 
     return (<>
-    <Navbar />
     <main>
         <section className="category-hero">
             <h1>Select a Study Semester</h1>
@@ -47,7 +44,6 @@ function SemesterCateogry() {
             </div>
         </section>
     </main>
-    <Footer />
 </>
 );
 }

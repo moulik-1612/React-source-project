@@ -18,12 +18,17 @@ import Help from "./pages/help"
 import Contact from "./pages/contact"
 import SignupPage from "./pages/signup"
 import Login from "./pages/login"
+import Layout from "./Landing Page/Layout"
 
 
 function App () {
 
 const router = createBrowserRouter([
 {
+  path: '/',
+  element: <Layout />,
+  children:[
+   {
   path: '/',
   element: <LandingPage />
 },
@@ -96,7 +101,10 @@ const router = createBrowserRouter([
 {
   path: '/login',
   element: <Login />
+} 
+  ]
 }
+
 ])
 
 return(

@@ -1,6 +1,3 @@
-import Navbar from '../Landing Page/Navbar';
-import Footer from '../Landing Page/Footer'
-
 function Contact() {
     return (<>
     <Navbar />
@@ -18,7 +15,6 @@ function Contact() {
             <p>For suggestions related to the website, be sure to message us. We value your input and strive to make this platform better for you.</p>
         </div>
     </section>
-    <Footer />
     </>);
 }
 

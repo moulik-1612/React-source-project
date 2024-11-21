@@ -1,11 +1,7 @@
-import Footer from "../Landing Page/Footer";
-import Navbar from "../Landing Page/Navbar";
-
 function About() {
     return (
 
     <div>    
-    <Navbar />    
     <section className="about">
         <div className="about-container">
             <h1>About Us</h1>
@@ -25,7 +21,6 @@ function About() {
             </p>
         </div>
     </section>
-    <Footer />
     </div>
 );
 }

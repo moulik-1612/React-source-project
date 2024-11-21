@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import Footer from "../Landing Page/Footer";
-import Navbar from "../Landing Page/Navbar";
+
 
 function SemOneSubject({one, two, three}) {
 
@@ -19,7 +18,6 @@ function SemOneSubject({one, two, three}) {
     }
 
     return (<>
-    <Navbar />
     <main>
         <section className="category-hero">
             <h1>Select a Subject</h1>
@@ -44,7 +42,6 @@ function SemOneSubject({one, two, three}) {
             </div>
         </section>
     </main>
-    <Footer />
     </>
     );
 }

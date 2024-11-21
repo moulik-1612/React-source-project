@@ -1,6 +1,4 @@
 import { useParams } from "react-router-dom";
-import Footer from "../Landing Page/Footer";
-import Navbar from "../Landing Page/Navbar";
 import { data } from "../../semester api/sem4";
 
 
@@ -12,7 +10,6 @@ function Sem4chaptervideos() {
     const newArray = data.filter((data) => sub == data.id)
     
     return (<>
-    <Navbar />
         <div>
             {newArray.map((chapterData, chapterIndex) => (
                 <div key={chapterIndex}>
@@ -45,7 +42,6 @@ function Sem4chaptervideos() {
                 </div>
             ))}
         </div>
-    <Footer />
     </>
     );
 }
