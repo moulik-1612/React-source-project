@@ -1,5 +1,6 @@
     .login-container {
       display: flex;
+      margin: 0 auto;
       width: 100%;
       max-width: 800px;
       border-radius: 8px;
