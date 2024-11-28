@@ -1,6 +1,5 @@
 function Contact() {
     return (<>
-    <Navbar />
         <section className="contact">
         <div className="container">
             <h1>Contact Us</h1>
